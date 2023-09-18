@@ -9,32 +9,58 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="images/LogoBCOC.png" alt="" width="70" height="70" class="d-inline-block align-text-center">
-                BCOC : Basket Club Oyen Cécilien
-              </a>
-              <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Événements</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/LogoBCOC.png" alt="Logo du club" width="30" height="30" class="d-inline-block align-text-top">
+            BCOC<span class="hide-on-mobile"> : Basket Club Oyen Cécilien</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Évenements</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
         <!--Articles de présentation du club et des équipes-->
-        <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/Basket présentation.png" class="card-img-top" alt="Ballon de basket">
+              <div class="card-body">
+                <h5 class="card-title">Présentation du club</h5>
+                <p class="card-text">Le club a été crée en 1975. A l'époque c'était le BCO, Basket Club Oyen. L'entente avec Sainte Cécile a eu lieu en 1999 pour devenir le BCOC que l'on connait maintenant ...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/Les équipes.png" class="card-img-top" alt="équipes en plein match">
+              <div class="card-body">
+                <h5 class="card-title">Les équipes</h5>
+                <p class="card-text">Cette année 2023 est une année reccord pour le club. Avec 12 équipes et 115 licenciés la club ne s'est jamais senti aussi bien. Des U7 aux équipes seniors chaques niveau à son équipe...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/Les arbitres.png" class="card-img-top" alt="Arbitres officiels">
+              <div class="card-body">
+                <h5 class="card-title">L'arbitrage</h5>
+                <p class="card-text">Comme vous le savez les matchs ne seraient rien sans les arbitres. Cette année l'arbitrage sera notre priorité. Trois cession de formation vous seront proposer pour vous familiariser... </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--<div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
               <div class="card">
                 <img src="images/salle.jpg" class="card-img-top" alt="salle de sport">
@@ -71,7 +97,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div>-->
           <!--FIN-->
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
