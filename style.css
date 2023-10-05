@@ -1,8 +1,19 @@
 @media only screen and (max-width: 480px) {
     .hide-on-mobile {
         display: none;
-    }
-    img{
-        width: 100%
-    }
+    }  
+}
+
+.container-fluid{
+    background-color: white;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+}
+
+div {
+    text-align: center;
+    align-items: center;
 }
