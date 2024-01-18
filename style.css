@@ -1,0 +1,22 @@
+@media only screen and (max-width: 480px) {
+    .hide-on-mobile {
+        display: none;
+    }  
+}
+
+.container-fluid{
+    background-color: white;
+}
+
+.dimension {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5, p {
+    text-align: center;
+
+}
